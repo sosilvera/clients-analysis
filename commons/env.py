@@ -1,0 +1,5 @@
+############ BASE DE DATOS ############
+DBNAME = 'guzel'
+TRUSTED_CONNECTION = 'yes'
+SERVER = 'AR-PF17KDST\SQLEXPRESS' #Server Seba 
+STRING_CONNECTION = 'DRIVER={ODBC Driver 17 for SQL Server};SERVER='+SERVER+';DATABASE='+DBNAME+';Trusted_Connection='+TRUSTED_CONNECTION
